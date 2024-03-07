@@ -97,17 +97,3 @@ header {
 .gap10 {
     gap: 10%;
 }
-
-
-/* BANNER CARDS */
-
-.banner-col {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-
-    /* DEBUG */
-    background-color: aquamarine;
-    border: 1px solid black;
-}
