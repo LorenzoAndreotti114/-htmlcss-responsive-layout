@@ -1,0 +1,113 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.container {
+
+    display: flex;
+    justify-content: center;
+
+    /* DEBUG */
+    background-color: aqua;
+}
+
+.col {
+
+    /* DEBUG */
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.card {
+
+    text-align: center;
+    
+    /* DEBUG */
+    border: 1px solid black;
+    background-color: brown;
+    height: 50px;
+}
+
+.inner-card {
+
+    /* DEBUG */
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+header {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+
+/* COLORS */
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-violet {
+    background-color: blueviolet;
+}
+
+.bg-black {
+    background-color: rgb(41, 41, 41);
+}
+
+/* WIDTHS */
+.width100 {
+    width: 100%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.gap10 {
+    gap: 10%;
+}
+
+
+/* BANNER CARDS */
+
+.banner-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    /* DEBUG */
+    background-color: aquamarine;
+    border: 1px solid black;
+}
