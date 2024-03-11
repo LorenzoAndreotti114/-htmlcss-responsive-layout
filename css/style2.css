@@ -1,0 +1,119 @@
+ /* MEDIA */
+
+@media screen and (min-width:481px) {
+
+header {
+    margin-bottom: -80px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.f-size {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.blue-btn {
+    font-size: 1rem;
+}
+
+/* BANNER */
+
+.banner-col {
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+    flex-wrap: wrap;
+    flex: content;
+}
+
+#b-card-1 {
+    width: 66%;
+}
+
+.banner-card {
+    width: 32%;
+}
+
+.card-big-logos {
+    font-size: 3rem;
+}
+
+/* TESTIMONIALS */
+
+.tm-col {
+    width: 90%;
+}
+
+.tm-card {
+    flex-direction: row;
+    text-align: left;
+    padding: 4%;
+}
+
+/* WORK WITH US */
+
+.wwu-col {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wwu-card {
+    width: 48%;
+    padding: 5%;
+}
+
+.wwu-head {
+    width: 90%;
+    display: inline-block;
+}
+
+/* ABOUT US */
+
+.aus-head {
+    width: 100%;
+}
+
+.aus-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aus-card {
+    width: 40%;
+    font-size: 1rem;
+}
+
+.aus-testimonial {
+    width: 100%;
+}
+
+.special-effect-testimonial {
+    position: absolute;
+    font-size: 4rem;
+    color: blueviolet;
+    top: 2%;
+    left: 70%;
+}
+
+.violet-btn {
+    font-size: 1rem;
+}
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    
+
+
+}

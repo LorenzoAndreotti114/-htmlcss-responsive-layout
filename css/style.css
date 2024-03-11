@@ -5,39 +5,8 @@
      font-family: PT Sans;
  }
 
- .container {
-     display: flex;
-     justify-content: center;
- }
-
- .col {}
-
- .card {
-     text-align: center;
- }
-
- .inner-card {}
-
  .n-card {
-     font-size: 8.5vw;
- }
-
- .flex {
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- .wrap {
-     flex-wrap: wrap;
- }
-
- .column {
-     flex-direction: column;
- }
-
- .p-relative {
-     position: relative;
+     font-size: 4rem;
  }
 
  .p-absolute {
@@ -56,38 +25,30 @@
  }
 
  h3 {
-     font-size: 5.5vw;
+     font-size: 2.5rem;
  }
 
  h2 {
-     font-size: 7vw;
+     font-size: 3.5rem;
  }
 
  .f-size {
-     font-size: 3.5vw;
+     font-size: 1.8rem;
      padding: 3%;
  }
 
  .f-size-big {
-     font-size: 10vw;
+     font-size: 6rem;
  }
 
  .f-size-small {
-     font-size: 2.5vw;
+     font-size: 1rem;
      padding: 3%;
  }
 
  .l-align {
      text-align: left;
      padding: 5%;
- }
-
- .jc-start {
-     justify-content: start;
- }
-
- .ai-start {
-     align-items: start;
  }
 
  .p-0 {
@@ -100,10 +61,6 @@
 
  .p-5 {
      padding: 5%;
- }
-
- .p-10 {
-     padding: 10%;
  }
 
  .p-l-5 {
@@ -126,29 +83,13 @@
      margin-top: 5%;
  }
 
- .m-bot10 {
-     margin-bottom: 10%;
- }
-
- .m-bot5 {
-     margin-bottom: 5%;
- }
-
  .radius {
      border-radius: 40px;
  }
 
- .radius-top {
-     border-radius: 40px 40px 0 0;
- }
-
- .radius-bottom {
-     border-radius: 0 0 40px 40px;
- }
-
  .blue-btn {
      color: white;
-     font-size: 4.5vw;
+     font-size: 1.8rem;
      padding: 2% 20%;
      border-radius: 40px;
      background-color: blue;
@@ -157,7 +98,7 @@
  .violet-btn {
      display: inline-block;
      color: white;
-     font-size: 4.5vw;
+     font-size: 2rem;
      padding: 2% 20%;
      border-radius: 40px;
      background-color: blueviolet;
@@ -166,19 +107,19 @@
  .white-btn {
      display: inline-block;
      color: blueviolet;
-     font-size: 3vw;
+     font-size: 2rem;
      padding: 5% 25%;
      border-radius: 40px;
      background-color: white;
  }
 
  .btn-font {
-     font-size: 2.5vw;
+     font-size: 1.2rem;
  }
 
  .arrow-down {
      display: inline-block;
-     font-size: 4vw;
+     font-size: 1.8rem;
      background-color: blueviolet;
      padding: 3% 5%;
      border-radius: 100%;
@@ -203,29 +144,12 @@
      color: orange;
  }
 
- .bg-blue {
-     background-color: blue;
- }
-
  .color-blue {
      color: blue;
  }
 
- .bg-aqua {
-     background-color: aqua;
- }
-
- .bg-violet {
-     background-color: blueviolet;
- }
-
  .color-violet {
      color: blueviolet;
- }
-
-
- .bg-black {
-     background-color: rgb(41, 41, 41);
  }
 
  /* WIDTHS */
@@ -237,10 +161,6 @@
      width: 80%;
  }
 
- .width75 {
-     width: 75%;
- }
-
  .width50 {
      width: 50%;
  }
@@ -248,15 +168,6 @@
  .width40 {
      width: 40%;
  }
-
- .width30 {
-     width: 30%;
- }
-
- .gap10 {
-     gap: 10%;
- }
-
 
  /* HEADER BAR */
 
@@ -269,7 +180,7 @@
      color: white;
      width: 100%;
      text-align: end;
-     font-size: 5vw;
+     font-size: 1.8rem;
      padding: 2% 5%;
  }
 
@@ -289,6 +200,7 @@
 
  .h-card {
      text-align: center;
+     align-items: center;
      width: 50%;
      display: flex;
  }
@@ -318,7 +230,7 @@
  }
 
  .card-big-logos {
-     font-size: 18vw;
+     font-size: 6.5rem;
      padding: 3%;
  }
 
@@ -346,104 +258,116 @@
 
  /* TESTIMONIALS */
 
-.tm-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+ .tm-container {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
 
-.tm-col {
-    width: 80%;
-}
+ .tm-col {
+     width: 80%;
+ }
 
-.tm-head {
-    text-align: center;
-    margin-top: 10%;
-}
+ .tm-head {
+     text-align: center;
+     margin-top: 10%;
+ }
 
-.tm-card {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5% 0;
-    color: white;
-    background-color: blueviolet;
-}
+ .tm-card {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 5% 0;
+     color: white;
+     background-color: blueviolet;
+ }
 
  .testimonial {
+     aspect-ratio: 1/1;
+     object-fit: cover;
      border-radius: 100%;
      padding: 5%;
  }
 
-/* WORK WITH US */
+ /* WORK WITH US */
 
-.wwu-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: blueviolet;
-}
+ .wwu-container {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     background-color: blueviolet;
+ }
 
-.wwu-col {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    background-color: blueviolet;
-}
+ .wwu-col {
+     display: flex;
+     flex-direction: column;
+     width: 80%;
+     background-color: blueviolet;
+ }
 
-.wwu-head {
-    text-align: center;
-    margin-top: 5%;
-}
+ .wwu-head {
+     text-align: center;
+     margin-top: 5%;
+ }
 
-.wwu-card {
-    text-align: left;
-    width: 100%;
-    padding: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: white;
-}
+ .wwu-card {
+     text-align: left;
+     width: 100%;
+     padding: 10%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     background-color: white;
+ }
 
  /* ABOUT US */
 
-.aus-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+ .aus-container {
+     display: flex;
+     justify-content: center;
+     
+     width: 100%;
+ }
 
-.aus-col {
-    width: 80%;
-}
+ .aus-col {
+     width: 80%;
+ }
 
-.aus-card {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5% 5%;
-}
+ .aus-card {
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 5% 5%;
+     font-size: 1.5rem;
+ }
 
-.aus-inner1 {
-    width: 100%;
-    display: flex;
-    justify-content: start;
-    position: relative;
-}
+ .aus-inner1 {
+     width: 100%;
+     display: flex;
+     justify-content: start;
+     position: relative;
+ }
 
-.aus-inner2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-bottom: 10%;
+ .aus-testimonial {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 5%;
+    width: 50%;
 }
+ 
+ .aus-inner2 {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     margin-bottom: 10%;
+ }
 
  .special-effect-testimonial {
      position: absolute;
-     font-size: 11vw;
+     font-size: 4rem;
      color: blueviolet;
      top: 5%;
      left: 33%;
@@ -452,45 +376,37 @@
  /* GET STARTED */
 
  .gst-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    color: white;
-    background-color: blueviolet;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     color: white;
+     background-color: blueviolet;
  }
 
  .gst-col {
-    width: 80%;
+     width: 80%;
  }
 
  .gst-card {
-    text-align: center;
-    margin: 3% 0;
+     text-align: center;
+     margin: 3% 0;
  }
 
  /* FOOTER */
 
  .foot-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: rgb(37, 37, 37);
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     background-color: rgb(37, 37, 37);
  }
 
  .foot-col {
-    width: 80%;
-    color: white;
+     width: 80%;
+     color: white;
  }
 
  .foot-card {
-    text-align: center;
-    margin: 5% 0;
- }
-
- /* MEDIA */
-
- @media screen and (min-width:481px) {
-
-
-    
+     text-align: center;
+     margin: 5% 0;
  }
